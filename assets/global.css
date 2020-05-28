@@ -1,0 +1,50 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-size: auto auto;
+    background-color: rgba(250, 193, 168, 1);
+    background-image: repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(235, 182, 158, 1) 20px, rgba(235, 182, 158, 1) 40px );
+}
+
+/* 区切り線 */
+.border{
+    border-bottom: 1px solid #FEE7CF;
+}
+
+/* タイトルカラー */
+.title {
+    color: #6B3939;
+    font-size: 6.5vmin;
+}
+
+/* サブタイトル  */
+.subtitle {
+    color: #955E4B;
+    font-size: 4vmin;
+}
+
+/* 通常リンク */
+a {
+    color: #945f4b;
+}
+
+/* 訪問済みリンク */
+a:visited {
+    color: #63311e;
+}
+
+p {
+    color: #4a1f0f;
+}
+
+.is-primary {
+    background-color: #ddaa77 !important;
+}
+
+.is-secondary {
+    color: #FFFFFF !important;
+    background-color: #ccaa99 !important;
+}
