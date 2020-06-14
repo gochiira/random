@@ -1,9 +1,6 @@
 
 export default {
   mode: 'spa',
-  /*
-  ** Headers of the page
-  */
   head: {
     title: 'ごちイラ | イラストガチャ',
     meta: [
@@ -42,18 +39,10 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma',
-    // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa'
   ],
-  /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
-  axios: {
-  },
   /*
   ** Build configuration
   */
@@ -64,11 +53,10 @@ export default {
           customProperties: false
         }
       }
-    },
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
     }
-  }
+  },
+  vue: {
+    devtools: (process.env.NODE_ENV !== 'production')
+  },
+  dev: (process.env.NODE_ENV !== 'production')
 }

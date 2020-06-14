@@ -3,10 +3,10 @@
 }
 
 body {
-    min-height: 100vh;
+    min-height: 102vh;
     background-size: auto auto;
-    background-color: rgba(250, 193, 168, 1);
-    background-image: repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(235, 182, 158, 1) 20px, rgba(235, 182, 158, 1) 40px );
+    background-color: #fac1a8;
+    background-image: repeating-linear-gradient(90deg,#ffe9dc,#ffe9dc 18px,#ffece0 0,#ffece0 33px);
 }
 
 /* 区切り線 */

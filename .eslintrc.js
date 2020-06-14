@@ -11,7 +11,16 @@ module.exports = {
     '@nuxtjs',
     'plugin:nuxt/recommended'
   ],
-  // add your custom rules here
+  'ignorePatterns': [
+    'node_modules/',
+    'dist/',
+    'public/',
+    'static/',
+    'functions/nuxt'
+  ],
   rules: {
+    'vue/attribute-hyphenation': 'off',
+    'vue/no-v-html': 'off',
+    'no-console': 'off'
   }
 }
