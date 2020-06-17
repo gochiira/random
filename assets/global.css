@@ -2,12 +2,33 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
-body {
-    min-height: 102vh;
-    background-size: auto auto;
-    background-color: #fac1a8;
-    background-image: repeating-linear-gradient(90deg,#ffe9dc,#ffe9dc 18px,#ffece0 0,#ffece0 33px);
+@media (min-width: 1000px) {
+    body {
+        min-height: 102vh;
+        background-image:
+            url(~static/bg_hidari.png),
+            url(~static/bg_migi.png),
+            repeating-linear-gradient(45deg,#ffe9dc,#ffe9dc 18px,#ffece0 0,#ffece0 33px);
+        background-repeat:
+            no-repeat, /* 最前面の背景レイヤーに対応 */
+            no-repeat,
+            repeat;
+        background-position:
+            center left,
+            center right;
+    }
 }
+
+@media (max-width: 1000px) {
+    body {
+        min-height: 102vh;
+        background-image:
+            repeating-linear-gradient(90deg,#ffe9dc,#ffe9dc 18px,#ffece0 0,#ffece0 33px);
+        background-repeat:
+            repeat;
+    }
+}
+
 
 /* 区切り線 */
 .border{

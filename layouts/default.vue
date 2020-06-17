@@ -7,7 +7,7 @@
             ごちイラ イラストガチャ
           </h1>
           <h2 class="subtitle">
-            なにがでるかな
+            イラストをタップで記載ページへジャンプ
           </h2>
         </div>
       </header>
@@ -18,7 +18,7 @@
         <nav class="level" style="padding: 0.5rem 1rem;">
           <p class="level-item has-text-centered">
             <a
-              href="https://illust.gochiusa.com"
+              href="https://illust.gochiusa.team"
               target="_blank"
               rel="noopener noreferrer nofollow"
               class="has-text-centered is-size-6 heading"
