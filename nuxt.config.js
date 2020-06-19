@@ -23,7 +23,7 @@ export default {
   manifest: {
     name: 'ごちイラガチャ',
     short_name: 'ごちガチャ',
-    description: 'ランダムごちうさイラスト',
+    description: 'ごちうさイラストを引きまくろう!',
     lang: 'ja',
     theme_color: '#7b5544',
     background_color: '#7b5544',
@@ -52,7 +52,8 @@ export default {
   */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    'nuxt-purgecss'
   ],
   /*
   ** Nuxt.js modules
@@ -62,7 +63,8 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     'cookie-universal-nuxt',
-    'nuxt-fontawesome'
+    'nuxt-fontawesome',
+    'nuxt-precompress'
   ],
   fontawesome: {
     imports: [
