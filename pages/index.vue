@@ -6,7 +6,7 @@
           <div class="box">
             <a class="columns is-centered is-vcentered" :href="accessAddress">
               <div class="column is-6 has-text-centered">
-                <img :src="'https://cdn.gochiusa.team/illusts/thumb/'+illust.illustID+illust.extension">
+                <img :src="'https://cdn.gochiusa.team/illusts/thumb/'+illust.illustID+'.'+illust.extension">
               </div>
               <div class="column is-4">
                 <div class="has-text-centered subtitle">

@@ -1,13 +1,19 @@
 <template>
   <div id="top">
     <header>
-      <div class="box" style="margin-top:10px; margin-left:5%; margin-right:5%;">
-        <h1 class="title">
-          ごちイラ イラストガチャ
-        </h1>
-        <h2 class="subtitle">
-          イラストをタップで記載ページへジャンプ
-        </h2>
+      <div class="container">
+        <div class="columns is-centered is-vcentered">
+          <div class="column is-8">
+            <div class="box" style="margin-top:10px; margin-left:5%; margin-right:5%;">
+              <h1 class="title">
+                ごちイラ イラストガチャ
+              </h1>
+              <h2 class="subtitle">
+                イラストをタップで記載ページへジャンプ
+              </h2>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <main>
