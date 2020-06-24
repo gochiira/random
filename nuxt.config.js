@@ -17,7 +17,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'dns-prefetch', href: '//api.gochiusa.team' }
+      { rel: 'preconnect dns-prefetch', href: '//api.gochiusa.team' }
     ]
   },
   manifest: {
@@ -39,8 +39,7 @@ export default {
   ** Global CSS
   */
   css: [
-    '@assets/global.css',
-    '@assets/usagi.css'
+    '@assets/global.css'
   ],
   /*
   ** Plugins to load before mounting the App
